@@ -1,11 +1,17 @@
 {
   "intents": [
     {
-      "intent": "RecipeIntent",
+      "intent": "WorkOutIntent"
+    },
+    {
+      "intent": "NextMoveIntent"
+    },
+    {
+      "intent": "SkillMoveIntent",
       "slots": [
       {
-        "name" : "Item",
-        "type": "LIST_OF_ITEMS"
+        "name" : "Move",
+        "type": "LIST_OF_MOVES"
       }
      ]
     },
