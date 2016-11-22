@@ -1,5 +1,23 @@
-#Sample AWS Lambda function for Alexa
-A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to write a skill for the Amazon Echo using the Alexa SDK.
+[![Enable Skill.](fastfootwork.png)](https://www.amazon.com/dp/B01N64LK3O/ref=syps?s=digital-skills&ie=UTF8&qid=1479774740&sr=1-1&keywords=fast+foot+work)
+
+# Fast Foot Work skill for Alexa
+[Fast Foot Work](https://www.amazon.com/dp/B01N64LK3O/ref=syps?s=digital-skills&ie=UTF8&qid=1479774740&sr=1-1&keywords=fast+foot+work) is an Amazon Alexa Skill for improving your soccer foot Skills. I created this Skill to practice using voice based technology with Alexa utilizing Node.js.
+
+The app is deployed on Amazon.
+
+The source code is here on GitHub: https://github.com/CaseyBennington/fastfootwork
+
+Follow along with this skill and complete all the moves, 4 times or more for each move, every day.
+This takes about 7 minutes to complete and will give you over 500 touches on the ball.
+Consistently completing this training skill will improve your foot skills!
+Get started today!
+
+Open the skill today with, 'Alexa, open Fast Foot Work'.
+Say something like 'begin', or 'start', to start your daily workout.
+After you complete each move 4 or more times, advance to the next move with something like 'next'.
+After you finish, simply say 'stop'.
+
+## Created using the following steps:
 
 ## Concepts
 This sample shows how to create a Lambda function for handling Alexa Skill requests that:
@@ -38,8 +56,3 @@ To run this example skill you need to do two things. The first is to deploy the 
 8. You are now able to start testing your sample skill! You should be able to go to the [Echo webpage](http://echo.amazon.com/#skills) and see your skill enabled.
 9. In order to test it, try to say some of the Sample Utterances from the Examples section below.
 10. Your skill is now saved and once you are finished testing you can continue to publish your skill.
-
-## Examples
-### One-shot model:
-    User: "Alexa, ask Minecraft Helper how to make paper."
-    Alexa: "(reads back recipe for paper)"
